@@ -1,0 +1,5 @@
+---
+# tasks file for some_simple_role_without_hyphens_in_name
+- name: Print some output from some_simple_role_without_hyphens_in_name
+  ansible.builtin.debug: 
+    msg: "Hello from t_namespace.t_collection/some_simple_role_without_hyphens_in_name"
