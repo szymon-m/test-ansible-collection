@@ -1,0 +1,5 @@
+---
+# tasks file for some-simple-role
+- name: Print some output from simple some-simple-role
+  ansible.builtin.debug: 
+    msg: "Hello from t_namespace.t_collection/some-simple-role"
