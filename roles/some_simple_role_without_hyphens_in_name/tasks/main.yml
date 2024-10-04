@@ -3,3 +3,7 @@
 - name: Print some output from some_simple_role_without_hyphens_in_name
   ansible.builtin.debug: 
     msg: "Hello from t_namespace.t_collection/some_simple_role_without_hyphens_in_name"
+
+- name: Print some output from new developed version
+  ansible.builtin.debug: 
+    msg: "This new feature added in development version 0.0.2"        

@@ -3,3 +3,7 @@
 - name: Print some output from simple some-simple-role
   ansible.builtin.debug: 
     msg: "Hello from t_namespace.t_collection/some-simple-role"
+
+- name: Print some output from simple some-simple-role
+  ansible.builtin.debug: 
+    msg: "This new feature added in development version 0.0.2"    
